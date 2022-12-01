@@ -1,0 +1,30 @@
+.proyectos img{
+    width: 400px;
+}
+
+.proyectos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+}
+
+.trabajos{
+    margin-left: 50px;
+}
+
+.informacion{
+    margin-right: 50px;
+}
+
+@media only screen and (max-width:600px){
+
+    .proyectos img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: bottom;
+          
+        
+    }
+}
